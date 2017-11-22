@@ -35,7 +35,7 @@ const svg = d3
   .append("svg")
   .attr("width", "100%")
   .attr("height", "100%");
-
+// create Div that will fade in with info about the region when clicked.
   var hoverDiv = d3.select("body").append("div")	
   .attr("id", "tooltip")				
   .style("opacity", 0);
@@ -80,7 +80,7 @@ function renderMap(root) {
   .scale(s)
   .translate(t);
 
-
+  // generate map, add info for the regions to the hover DIV to display when clicked on.
   g
     .append("g")
     .selectAll("path")
