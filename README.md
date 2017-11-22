@@ -5,4 +5,6 @@ Map of Iceland with some basic information.
 
 Has some basic zooming with scroll wheel and buttons aswell.
 
+Made with d3.js
+
 Link to app: https://dtredemption.github.io/VEF3B3U_Verk4/
